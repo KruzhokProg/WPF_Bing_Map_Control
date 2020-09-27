@@ -1,0 +1,18 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Bing_Map_Control"
+        xmlns:WPF="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF" x:Class="WPF_Bing_Map_Control.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <WPF:Map HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Height="401" Width="793"
+                 CredentialsProvider="As-2ggKVmZWwR2Anm834YumMrjRxqf2lxG3ErW_J1_pShekB3jim0dvk0ijnnJs-"
+                 Center="37.806029,-122.407007" ZoomLevel="16"
+                 Mode="AerialWithLabels"/>
+
+    </Grid>
+</Window>
